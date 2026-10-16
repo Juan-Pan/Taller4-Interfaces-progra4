@@ -1,9 +1,10 @@
 package org.example.ejercicio4;
 
 public abstract class Animal {
-    private final String nombre;
+    private  String nombre;
 
-    protected Animal(String nombre) {
+    public Animal(String nombre) {
+
         this.nombre = nombre;
     }
 

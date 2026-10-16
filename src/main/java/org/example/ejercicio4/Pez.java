@@ -7,7 +7,7 @@ public class Pez extends Animal implements Nadador {
 
     @Override
     public void hacerSonido() {
-        System.out.println(getNombre() + " no emite sonidos audibles.");
+        System.out.println(getNombre() + " no hace sonidos.");
     }
 
     @Override
