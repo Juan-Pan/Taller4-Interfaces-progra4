@@ -7,7 +7,7 @@ public class main {
         Volador ave = new Ave();
         Volador avion = new Avion();
 
-       
+
         ave.volar();
         avion.volar();
     }
